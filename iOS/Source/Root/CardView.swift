@@ -41,20 +41,18 @@ class CardView: UIView {
         self.valueLabel.text = card.value
 
         switch card.suit {
-        case "C":
+        case .club:
             self.suitImageView.image = UIImage(named: "club")!
             self.valueLabel.textColor = UIColor.black
-        case "D":
+        case .diamond:
             self.suitImageView.image = UIImage(named: "diamond")!
             self.valueLabel.textColor = UIColor.suitRed
-        case "H":
+        case .heart:
             self.suitImageView.image = UIImage(named: "heart")!
             self.valueLabel.textColor = UIColor.suitRed
-        case "S":
+        case .spade:
             self.suitImageView.image = UIImage(named: "spade")!
             self.valueLabel.textColor = UIColor.black
-        default:
-            fatalError("Invalid suit")
         }
     }
 

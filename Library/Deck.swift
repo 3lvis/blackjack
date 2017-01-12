@@ -8,7 +8,7 @@ struct Deck: Equatable {
 
         for suit in Card.suits {
             for value in Card.values {
-                cards.append(Card(suit: suit, value: value))
+                cards.append(Card(suit: suit.rawValue, value: value))
             }
         }
 
