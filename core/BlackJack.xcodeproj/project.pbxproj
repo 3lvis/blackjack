@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1471A5B01E2425B60044AB04 /* DeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A5AF1E2425B60044AB04 /* DeckTests.swift */; };
+		1471A5B31E2428A60044AB04 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A5B11E2425EC0044AB04 /* Card.swift */; };
+		1471A5B61E2442A00044AB04 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A5B41E2442A00044AB04 /* Deck.swift */; };
+		1471A5B91E2442E90044AB04 /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A5B71E2442E90044AB04 /* CardTests.swift */; };
+		14B4D4D61E26E450000D1852 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4D41E26E450000D1852 /* Player.swift */; };
+		14B4D4D91E26E6AE000D1852 /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4D71E26E6AE000D1852 /* PlayerTests.swift */; };
+		14B4D4DC1E26E8C1000D1852 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4DA1E26E8C1000D1852 /* Game.swift */; };
+		14B4D4DF1E26E92C000D1852 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4DD1E26E92C000D1852 /* GameTests.swift */; };
+		14B4D4E11E26F3E0000D1852 /* Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 14B4D4E01E26F3E0000D1852 /* Input.txt */; };
+		14B4D4E31E26F453000D1852 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4E21E26F453000D1852 /* FileReader.swift */; };
+		14B4D4E51E26F4C9000D1852 /* GeneralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4D4E41E26F4C9000D1852 /* GeneralTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1471A5A71E2425A70044AB04 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1471A5AB1E2425A70044AB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1471A5AF1E2425B60044AB04 /* DeckTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTests.swift; sourceTree = "<group>"; };
+		1471A5B11E2425EC0044AB04 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1471A5B41E2442A00044AB04 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		1471A5B71E2442E90044AB04 /* CardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		14B4D4D41E26E450000D1852 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		14B4D4D71E26E6AE000D1852 /* PlayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTests.swift; sourceTree = "<group>"; };
+		14B4D4DA1E26E8C1000D1852 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		14B4D4DD1E26E92C000D1852 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		14B4D4E01E26F3E0000D1852 /* Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Input.txt; sourceTree = "<group>"; };
+		14B4D4E21E26F453000D1852 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		14B4D4E41E26F4C9000D1852 /* GeneralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1471A5A41E2425A70044AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1471A5901E24259A0044AB04 = {
+			isa = PBXGroup;
+			children = (
+				1471A59B1E24259A0044AB04 /* BlackJack */,
+				1471A5A81E2425A70044AB04 /* Tests */,
+				1471A59A1E24259A0044AB04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1471A59A1E24259A0044AB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1471A5A71E2425A70044AB04 /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1471A59B1E24259A0044AB04 /* BlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				1471A5B11E2425EC0044AB04 /* Card.swift */,
+				1471A5B41E2442A00044AB04 /* Deck.swift */,
+				14B4D4D41E26E450000D1852 /* Player.swift */,
+				14B4D4DA1E26E8C1000D1852 /* Game.swift */,
+			);
+			path = BlackJack;
+			sourceTree = "<group>";
+		};
+		1471A5A81E2425A70044AB04 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1471A5AB1E2425A70044AB04 /* Info.plist */,
+				1471A5B71E2442E90044AB04 /* CardTests.swift */,
+				1471A5AF1E2425B60044AB04 /* DeckTests.swift */,
+				14B4D4D71E26E6AE000D1852 /* PlayerTests.swift */,
+				14B4D4DD1E26E92C000D1852 /* GameTests.swift */,
+				14B4D4E01E26F3E0000D1852 /* Input.txt */,
+				14B4D4E21E26F453000D1852 /* FileReader.swift */,
+				14B4D4E41E26F4C9000D1852 /* GeneralTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1471A5A61E2425A70044AB04 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1471A5AC1E2425A70044AB04 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				1471A5A31E2425A70044AB04 /* Sources */,
+				1471A5A41E2425A70044AB04 /* Frameworks */,
+				1471A5A51E2425A70044AB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 1471A5A71E2425A70044AB04 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1471A5911E24259A0044AB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Demo;
+				TargetAttributes = {
+					1471A5A61E2425A70044AB04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1471A5941E24259A0044AB04 /* Build configuration list for PBXProject "BlackJack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1471A5901E24259A0044AB04;
+			productRefGroup = 1471A59A1E24259A0044AB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1471A5A61E2425A70044AB04 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1471A5A51E2425A70044AB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4D4E11E26F3E0000D1852 /* Input.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1471A5A31E2425A70044AB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1471A5B61E2442A00044AB04 /* Deck.swift in Sources */,
+				1471A5B01E2425B60044AB04 /* DeckTests.swift in Sources */,
+				14B4D4DC1E26E8C1000D1852 /* Game.swift in Sources */,
+				14B4D4E31E26F453000D1852 /* FileReader.swift in Sources */,
+				14B4D4E51E26F4C9000D1852 /* GeneralTests.swift in Sources */,
+				1471A5B31E2428A60044AB04 /* Card.swift in Sources */,
+				14B4D4D61E26E450000D1852 /* Player.swift in Sources */,
+				14B4D4D91E26E6AE000D1852 /* PlayerTests.swift in Sources */,
+				1471A5B91E2442E90044AB04 /* CardTests.swift in Sources */,
+				14B4D4DF1E26E92C000D1852 /* GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1471A59E1E24259A0044AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1471A59F1E24259A0044AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1471A5AD1E2425A70044AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1471A5AE1E2425A70044AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1471A5941E24259A0044AB04 /* Build configuration list for PBXProject "BlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1471A59E1E24259A0044AB04 /* Debug */,
+				1471A59F1E24259A0044AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1471A5AC1E2425A70044AB04 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1471A5AD1E2425A70044AB04 /* Debug */,
+				1471A5AE1E2425A70044AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1471A5911E24259A0044AB04 /* Project object */;
+}
