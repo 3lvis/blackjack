@@ -1,6 +1,6 @@
 import UIKit
 
-class TableController: UIViewController {
+class GameController: UIViewController {
     lazy var dealerScoreLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false

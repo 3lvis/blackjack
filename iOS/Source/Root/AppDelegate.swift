@@ -10,7 +10,7 @@ extension AppDelegate: UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         guard let window = self.window else { fatalError("Window not found") }
 
-        window.rootViewController = TableController()
+        window.rootViewController = GameController()
         window.makeKeyAndVisible()
 
         return true
