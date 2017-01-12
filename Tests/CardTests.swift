@@ -4,7 +4,7 @@ import Foundation
 class CardTests: XCTestCase {
     func testInitWithTemplate() {
         let card = Card(template: "S3")
-        XCTAssertEqual(card.suit, "S")
+        XCTAssertEqual(card.suit, .spade)
         XCTAssertEqual(card.value, "3")
     }
 

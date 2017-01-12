@@ -30,7 +30,7 @@ class GameTests: XCTestCase {
     }
 
     func testDealerHasLessThanPlayerOnFirstDrawGetsMoreThan21Later() {
-        var game = Game(template: "A9, C7, C9, C9, A8")
+        var game = Game(template: "C9, C7, C9, C9, C8")
         let winner = game.play()
         XCTAssertEqual(winner.name, Player.player().name)
         XCTAssertEqual(winner.value, 17)
